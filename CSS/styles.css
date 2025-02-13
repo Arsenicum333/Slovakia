@@ -30,6 +30,10 @@ h1 {
     /* border: 0.1px solid #000; */
 }
 
+.Regions:hover {
+    color: gray;
+}
+
 #Bratislava {
     width: 8.7%;
     height: 4%;

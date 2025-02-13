@@ -1,10 +1,46 @@
-* {
+#main-page {
     background-color: #222;
+}
+
+#bratislava {
+    background-color: #42d6a4;
+}
+
+#trnava {
+    background-color: #ffb480;
+}
+
+#nitra {
+    background-color: #59adf6;
+}
+
+#trencin {
+    background-color: #c780e8;
+}
+
+#banska-bystrica {
+    background-color: #f8f38d;
+}
+
+#zilina {
+    background-color: #08cad1;
+}
+
+#presov {
+    background-color: #9d94ff;
+}
+
+#kosice {
+    background-color: #ff6961;
 }
 
 h1 {
     color: #fff;
     text-align: center;
+}
+
+.regions {
+    color: #000;
 }
 
 .Slovak-Regions {

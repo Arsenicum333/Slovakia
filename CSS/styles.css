@@ -1,0 +1,94 @@
+* {
+    background-color: #222;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.Slovak-Regions {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Slovak-Regions #Slovak-Map {
+    width: 100%;
+    display: block;
+}
+
+.Regions {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color:#000000;
+    float: left;
+    opacity: 1;
+    /* border: 0.1px solid #000; */
+}
+
+#Bratislava {
+    width: 8.7%;
+    height: 4%;
+    font-size: 1.4vw;
+    top: 64%;
+    left: 1.7%;
+}
+
+#Trnava {
+    width: 6.1%;
+    height: 4%;
+    font-size: 1.4vw;
+    bottom: 16%;
+    left: 9.5%;
+}
+
+#Nitra {
+    width: 4.7%;
+    height: 4%;
+    font-size: 1.4vw;
+    bottom: 22%;
+    left: 23%;
+}
+
+#Trencin {
+    width: 6.8%;
+    height: 4%;
+    font-size: 1.4vw;
+    top: 38%;
+    left: 20%;
+}
+
+#Banska-Bystrica {
+    width: 13.9%;
+    height: 4%;
+    font-size: 1.4vw;
+    bottom: 40%;
+    left: 40%;
+}
+
+#Zilina {
+    width: 5.4%;
+    height: 4%;
+    font-size: 1.4vw;
+    top: 22%;
+    left: 39%;
+}
+
+#Presov {
+    width: 5.9%;
+    height: 4%;
+    font-size: 1.4vw;
+    top: 24%;
+    right: 20%;
+}
+
+#Kosice {
+    width: 6%;
+    height: 4%;
+    font-size: 1.4vw;
+    top: 47%;
+    right: 20%;
+}

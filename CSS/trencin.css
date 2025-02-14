@@ -1,5 +1,30 @@
 #trencin {
     background-color: #c780e8;
+    position: relative;
+}
+
+.Button {
+    width: 3.4em;
+    height: 1.4em;
+    font-size: 1.8em;
+    position: absolute;
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-color: #ffffff4f;
+    border: 1px solid #000000;
+    text-decoration: none;
+    float: right;
+    margin-left: 1%;
+    border-radius: 100em;
+    transition: 200ms ease;
+    user-select: none;
+}
+
+.Button:hover {
+    scale: 1.1;
 }
 
 h1 {

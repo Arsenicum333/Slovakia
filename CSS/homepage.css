@@ -31,7 +31,7 @@ h1 {
     margin-right: auto;
 }
 
-.Slovak-Regions #Slovak-Map {
+.Slovak-Regions > #Slovak-Map {
     width: 100%;
     display: block;
 }
@@ -95,3 +95,9 @@ h1 {
     top: 47%;
     right: 19%;
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6em;
+    }
+  }

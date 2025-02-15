@@ -3,44 +3,81 @@
     position: relative;
 }
 
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
 .Button {
-    width: 3.4em;
-    height: 1.4em;
-    font-size: 1.8em;
-    position: absolute;
-    display: inline-flex;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    background-color: #ffffff4f;
-    border: 1px solid #000000;
-    text-decoration: none;
-    float: right;
-    margin-left: 1%;
-    border-radius: 100em;
-    transition: 200ms ease;
-    user-select: none;
-    padding: auto;
+  padding: 0.2em 0.5em;
+  font-size: 1.8em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #ffffff4f;
+  border: 1px solid #000000;
+  text-decoration: none;
+  border-radius: 100em;
+  transition: 200ms ease;
+  user-select: none;
+  margin-left: 0.5%;
+  margin-right: 2%;
 }
 
 .Button:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 h1 {
-    color: #000000;
-    text-align: center;
-    width: 5.4em;
-    height: 1.4em;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
+  color: #000000;
+  text-align: center;
+  padding: 0.2em 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #ffffff4f;
+  border: 1px solid #000000;
+  border-radius: 100em;
+  margin: 0 auto;
+}
+
+table {
+    font-size: 1.5em;
+    border-collapse: separate;
+    border-spacing: 0;
     background-color: #ffffff4f;
+    overflow: hidden;
+    border-radius: 15px;
     border: 1px solid #000000;
-    border-radius: 100em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: auto;
+    margin: 1em auto;
+}
+
+td {
+    border: 0.5px solid #000000;
+    text-align: center;
+    padding: 0.4em 0.8em;
+}
+
+table td:first-child,
+table th:first-child {
+  border-left: none;
+}
+
+table td:last-child,
+table th:last-child {
+  border-right: none;
+}
+
+table tr:first-child td,
+table tr:first-child th {
+  border-top: none;
+}
+
+table tr:last-child td,
+table tr:last-child th {
+  border-bottom: none;
 }

@@ -49,49 +49,49 @@ h1 {
 }
 
 #Bratislava {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     top: 64%;
     left: 1.8%;
 }
 
 #Trnava {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     bottom: 16%;
     left: 9.7%;
 }
 
 #Nitra {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     bottom: 22%;
     left: 23.4%;
 }
 
 #Trencin {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     top: 38%;
     left: 20%;
 }
 
 #Banska-Bystrica {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     bottom: 40%;
-    left: 40%;
+    left: 39.6%;
 }
 
 #Zilina {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     top: 22%;
     left: 39.2%;
 }
 
 #Presov {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     top: 24%;
     right: 20%;
 }
 
 #Kosice {
-    font-size: 1.6vw;
+    font-size: calc(0.02 * 80vw);
     top: 47%;
     right: 19%;
 }

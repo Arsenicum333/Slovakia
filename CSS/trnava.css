@@ -1,12 +1,10 @@
 #trnava {
     background-color: #ffb480;
-    position: relative;
 }
 
 .Menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 1em;
 }
 

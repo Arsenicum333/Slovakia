@@ -1,12 +1,10 @@
 #presov {
     background-color: #9d94ff;
-    position: relative;
 }
 
 .Menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 1em;
 }
 

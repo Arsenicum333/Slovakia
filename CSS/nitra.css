@@ -1,12 +1,10 @@
 #nitra {
     background-color: #59adf6;
-    position: relative;
 }
 
 .Menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 1em;
 }
 

@@ -130,6 +130,7 @@ table tr:last-child th {
   
     table {
       font-size: 1em;
+      margin: 0.2em auto;
     } 
 }
 
@@ -140,5 +141,6 @@ table tr:last-child th {
   
     table {
       font-size: 0.8em;
+      margin: 0 auto;
     } 
   }

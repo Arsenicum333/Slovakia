@@ -130,15 +130,17 @@ table tr:last-child th {
 
   table {
     font-size: 1em;
+    margin: 0.2em auto;
   } 
 }
 
-@media (max-width: 240px) {
+@media (max-width: 270px) {
   h1 {
     font-size: 1em;
   }
 
   table {
     font-size: 0.8em;
+    margin: 0 auto;
   } 
 }

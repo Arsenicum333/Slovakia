@@ -2,13 +2,13 @@
   background-color: #42d6a4;
 }
 
-.Menu {
+.Header {
   display: flex;
   align-items: center;
   padding: 1em;
 }
 
-.Button {
+#Button {
   padding: 0.2em 0.5em;
   font-size: 1.8em;
   display: inline-flex;
@@ -26,7 +26,7 @@
   margin-right: 2%;
 }
 
-.Button:hover {
+#Button:hover {
   scale: 1.1;
   background-color: #ffffff8f;
 }
@@ -105,7 +105,7 @@ table tr:last-child th {
       font-size: 1.6em;
   }
 
-  .Button {
+  #Button {
     display: none;
   }
 
@@ -120,5 +120,15 @@ table tr:last-child th {
 
   ::-webkit-scrollbar {
     display: none;
+  }
 }
+
+@media (max-width: 340px) {
+  h1 {
+      font-size: 1.4em;
+  }
+
+  table {
+    font-size: 1em;
+  } 
 }

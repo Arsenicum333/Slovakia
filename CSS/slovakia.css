@@ -1,0 +1,134 @@
+#slovakia {
+    background-color: #222;
+  }
+  
+  .Header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #Button {
+    padding: 0.2em 0.5em;
+    font-size: 1.8em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #ffffff4f;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    border-radius: 100em;
+    transition: 200ms ease;
+    user-select: none;
+    margin-left: 0.5%;
+    margin-right: 2%;
+  }
+  
+  #Button:hover {
+    scale: 1.1;
+    background-color: #ffffff8f;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 0.2em 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ffffff4f;
+    border: 1px solid #ffffff;
+    border-radius: 100em;
+    margin: 0 auto;
+  }
+  
+  table {
+      font-size: 1.5em;
+      border-collapse: separate;
+      border-spacing: 0;
+      background-color: #ffffff4f;
+      overflow: hidden;
+      border-radius: 15px;
+      border: 1px solid #ffffff;
+      margin: 1em auto;
+  }
+  
+  td {
+      border: 0.5px solid #ffffff;
+      text-align: center;
+      padding: 0.3em 0.8em;
+  }
+  
+  table td:first-child,
+  table th:first-child {
+    border-left: none;
+  }
+  
+  table td:last-child,
+  table th:last-child {
+    border-right: none;
+  }
+  
+  table tr:first-child td,
+  table tr:first-child th {
+    border-top: none;
+  }
+  
+  table tr:last-child td,
+  table tr:last-child th {
+    border-bottom: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff4f;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff8f;
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+        font-size: 1.6em;
+    }
+  
+    #Button {
+      display: none;
+    }
+  
+    table {
+      font-size: 1.2em;
+      margin: 0.5em auto;
+    } 
+  
+    td {
+      padding: 0.3em 0.5em;
+    }
+  
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 340px) {
+    h1 {
+        font-size: 1.4em;
+    }
+  
+    table {
+      font-size: 1em;
+    } 
+  }

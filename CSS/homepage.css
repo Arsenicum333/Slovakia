@@ -2,16 +2,19 @@
     background-color: #222;
 }
 
-.Menu {
+.Header {
     display: flex;
     align-items: center;
 }
 
-h1 {
+#Slovakia {
     color: #fff;
     text-align: center;
     padding: 0.2em 0.5em;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    user-select: none;
     display: inline-block;
     box-sizing: border-box;
     align-items: center;
@@ -22,18 +25,26 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+    margin-top: 0.7em;
+    transition: 200ms ease;
 }
 
+#Slovakia:hover {
+    scale: 1.1;
+    background-color: #ffffff8f;
+  }
+
 .Slovak-Regions {
-    width: 80%;
+    width: 80vw;
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
 
-.Slovak-Regions > #Slovak-Map {
+#Slovak-Map {
     width: 100%;
     display: block;
+    user-select: none;
 }
 
 .Regions {
@@ -42,6 +53,7 @@ h1 {
     text-decoration: none;
     color:#000000;
     float: left;
+    user-select: none;
 }
 
 .Regions:hover {
@@ -51,7 +63,7 @@ h1 {
 #Bratislava {
     font-size: calc(0.02 * 80vw);
     top: 64%;
-    left: 1.8%;
+    left: 1.9%;
 }
 
 #Trnava {
@@ -98,29 +110,35 @@ h1 {
 
 ::-webkit-scrollbar {
     width: 15px;
-  }
+}
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #222;
     border-radius: 10px;
     border: 1px solid #ffffff;
-  }
+}
   
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #ffffff4f;
     border-radius: 10px;
-  }
+}
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #ffffff8f;
-  }
+}
   
-  @media (max-width: 480px) {
-    h1 {
+@media (max-width: 480px) {
+    #Slovakia {
         font-size: 1.6em;
     }
   
     ::-webkit-scrollbar {
       display: none;
-  }
-  }
+    }
+}
+
+@media (max-width: 340px) {
+    #Slovakia {
+        font-size: 1.4em;
+    }
+}

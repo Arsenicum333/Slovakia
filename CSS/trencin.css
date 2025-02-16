@@ -1,47 +1,47 @@
 #trencin {
-    background-color: #c780e8;
+  background-color: #c780e8;
 }
 
 .Header {
-    display: flex;
-    align-items: center;
-    padding: 1em;
+  display: flex;
+  align-items: center;
+  padding: 1em;
 }
 
 #Button {
-    padding: 0.2em 0.5em;
-    font-size: 1.8em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    color: #000000;
-    background-color: #ffffff4f;
-    border: 1px solid #000000;
-    text-decoration: none;
-    border-radius: 100em;
-    transition: 200ms ease;
-    user-select: none;
-    margin-left: 0.5%;
-    margin-right: 2%;
+  padding: 0.2em 0.5em;
+  font-size: 1.8em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #ffffff4f;
+  border: 1px solid #000000;
+  text-decoration: none;
+  border-radius: 100em;
+  transition: 200ms ease;
+  user-select: none;
+  margin-left: 0.5%;
+  margin-right: 2%;
 }
 
 #Button:hover {
-    scale: 1.1;
-    background-color: #ffffff8f;
+  scale: 1.1;
+  background-color: #ffffff8f;
 }
 
 h1 {
-    color: #000000;
-    text-align: center;
-    padding: 0.2em 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #ffffff4f;
-    border: 1px solid #000000;
-    border-radius: 100em;
-    margin: 0 auto;
+  color: #000000;
+  text-align: center;
+  padding: 0.2em 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #ffffff4f;
+  border: 1px solid #000000;
+  border-radius: 100em;
+  margin: 0 auto;
 }
 
 ::-webkit-scrollbar {
@@ -51,7 +51,7 @@ h1 {
 ::-webkit-scrollbar-track {
   background: #c780e8;
   border-radius: 10px;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -65,7 +65,7 @@ h1 {
 
 @media (max-width: 480px) {
   h1 {
-      font-size: 1.6em;
+    font-size: 1.6em;
   }
 
   #Button {
@@ -88,7 +88,7 @@ h1 {
 
 @media (max-width: 340px) {
   h1 {
-      font-size: 1.4em;
+    font-size: 1.4em;
   }
 
   table {

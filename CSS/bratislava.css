@@ -45,20 +45,20 @@ h1 {
 }
 
 table {
-    font-size: 1.5em;
-    border-collapse: separate;
-    border-spacing: 0;
-    background-color: #ffffff4f;
-    overflow: hidden;
-    border-radius: 15px;
-    border: 1px solid #000000;
-    margin: 1em auto;
+  font-size: 1.5em;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff4f;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  margin: 1em auto;
 }
 
 td {
-    border: 0.5px solid #000000;
-    text-align: center;
-    padding: 0.3em 0.8em;
+  border: 0.5px solid #000000;
+  text-align: center;
+  padding: 0.3em 0.8em;
 }
 
 table td:first-child,
@@ -88,7 +88,7 @@ table tr:last-child th {
 ::-webkit-scrollbar-track {
   background: #42d6a4;
   border-radius: 10px;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -102,12 +102,12 @@ table tr:last-child th {
 
 @media (max-width: 480px) {
   h1 {
-      font-size: 1.6em;
+    font-size: 1.6em;
   }
 
   #Button {
     display: none;
-  }
+}
 
   table {
     font-size: 1.2em;
@@ -125,7 +125,7 @@ table tr:last-child th {
 
 @media (max-width: 340px) {
   h1 {
-      font-size: 1.4em;
+    font-size: 1.4em;
   }
 
   table {

@@ -32,7 +32,7 @@
 #Slovakia:hover {
     scale: 1.1;
     background-color: #ffffff8f;
-  }
+}
 
 .Slovak-Regions {
     width: 80vw;
@@ -115,7 +115,7 @@
 ::-webkit-scrollbar-track {
     background: #222;
     border-radius: 10px;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
   
 ::-webkit-scrollbar-thumb {

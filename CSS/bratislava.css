@@ -82,7 +82,7 @@ table tr:last-child th {
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -110,7 +110,7 @@ table tr:last-child th {
   }
 
   table {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0.5em auto;
   } 
 

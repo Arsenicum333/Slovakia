@@ -81,6 +81,25 @@ table tr:last-child th {
   border-bottom: none;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #42d6a4;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff4f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff8f;
+}
+
 @media (max-width: 480px) {
   h1 {
       font-size: 1.6em;
@@ -98,4 +117,8 @@ table tr:last-child th {
   td {
     padding: 0.3em 0.5em;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
 }

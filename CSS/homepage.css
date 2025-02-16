@@ -96,8 +96,31 @@ h1 {
     right: 19%;
 }
 
-@media (max-width: 480px) {
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff4f;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff8f;
+  }
+  
+  @media (max-width: 480px) {
     h1 {
         font-size: 1.6em;
     }
+  
+    ::-webkit-scrollbar {
+      display: none;
+  }
   }

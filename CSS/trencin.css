@@ -45,7 +45,7 @@ h1 {
 }
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -73,7 +73,7 @@ h1 {
   }
 
   table {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0.5em auto;
   } 
 

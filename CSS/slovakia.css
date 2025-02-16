@@ -132,3 +132,13 @@ table tr:last-child th {
       font-size: 1em;
     } 
 }
+
+@media (max-width: 240px) {
+    h1 {
+      font-size: 1em;
+    }
+  
+    table {
+      font-size: 0.8em;
+    } 
+  }

@@ -81,6 +81,30 @@ table tr:last-child th {
   border-bottom: none;
 }
 
+.Footer {
+  display: flex;
+  justify-content: center;
+}
+
+#Sources {
+  padding: 0.2em 0.5em;
+  font-size: 1.1em;
+  border: 1px solid #000000;
+  color:#000000;
+  background-color: #ffffff4f;
+  border-radius: 100em;
+  text-align: center;
+}
+
+.Source {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Source:hover {
+  color: grey;
+}
+
 ::selection {
   background: #e67e22;
   color: white;

@@ -82,14 +82,38 @@ table tr:last-child th {
     border-bottom: none;
 }
 
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+#Sources {
+    padding: 0.2em 0.5em;
+    font-size: 1.1em;
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    background-color: #ffffff4f;
+    border-radius: 100em;
+    text-align: center;
+}
+
+.Source {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Source:hover {
+    color: #444;
+}
+
 ::selection {
     background: #aaa;
     color: rgb(0, 0, 0);
-  }
+}
   ::-moz-selection {
     background: #aaa;
     color: rgb(0, 0, 0);
-  }
+}
   
 ::-webkit-scrollbar {
     width: 15px;

@@ -81,6 +81,15 @@ table tr:last-child th {
   border-bottom: none;
 }
 
+::selection {
+  background: #e67e22;
+  color: white;
+}
+::-moz-selection {
+  background: #e67e22;
+  color: white;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }

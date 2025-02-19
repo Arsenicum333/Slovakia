@@ -53,6 +53,7 @@ table {
   border-radius: 15px;
   border: 1px solid #000000;
   margin: 1em auto;
+  margin-bottom: 0.3em;
 }
 
 td {
@@ -88,7 +89,7 @@ table tr:last-child th {
 
 #Sources {
   padding: 0.2em 0.5em;
-  font-size: 1.1em;
+  font-size: 1em;
   border: 1px solid #000000;
   color:#000000;
   background-color: #ffffff4f;

@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     padding: 1em;
+    margin-top: 0.6em;
 }
   
 #Button {
@@ -44,16 +45,61 @@ h1 {
     margin: 0 auto;
 }
   
+#Container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.Emblems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #ffffff4f;
+  object-fit: cover;
+  margin: 1em auto 1em auto;
+  border-radius: 1em;
+}
+  
+.Item {
+  text-align: center;
+  margin-top: 1.7em;
+  margin-bottom: 0.5em;
+}
+  
+.Object1 {
+  margin-left: 0.8em;
+  margin-right: 3em;
+}
+
+.Object2 {
+  margin-right: 1em;
+}
+
+#Flag {
+  width: 70%;
+}
+
+#Coat-of-Arms {
+  width: 75%;
+}
+
+.Caption {
+  font-size: 1.5em;
+  /* border: 1px solid #000000; */
+}
+
 table {
-    font-size: 1.5em;
-    border-collapse: separate;
-    border-spacing: 0;
-    background-color: #ffffff4f;
-    overflow: hidden;
-    border-radius: 15px;
-    border: 1px solid #ffffff;
-    margin: 1em auto;
-    margin-bottom: 0.3em;
+  font-size: 1.5em;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff4f;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  margin: 0.4em auto;
+  margin-bottom: 0.3em;
 }
   
 td {
@@ -129,6 +175,7 @@ table tr:last-child th {
 ::-webkit-scrollbar-thumb {
     background: #ffffff4f;
     border-radius: 10px;
+    border: 1px solid #ffffff;
 }
   
 ::-webkit-scrollbar-thumb:hover {

@@ -44,6 +44,46 @@ h1 {
   margin: 0 auto;
 }
 
+#Container {
+  display: flex;
+  justify-content: center;
+}
+
+.Emblems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  background-color: #ffffff4f;
+  object-fit: cover;
+  margin: 1em auto 1em auto;
+  border-radius: 1em;
+}
+
+.Item {
+  text-align: center;
+  margin-top: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.Object1 {
+  margin-left: 1.8em;
+  margin-right: 3em;
+}
+
+.Object2 {
+  margin-right: 0.1em;
+}
+
+#Coat-of-Arms {
+  width: 67%;
+}
+
+.Caption {
+  font-size: 1.5em;
+  /* border: 1px solid #000000; */
+}
+
 table {
   font-size: 1.5em;
   border-collapse: separate;
@@ -52,7 +92,7 @@ table {
   overflow: hidden;
   border-radius: 15px;
   border: 1px solid #000000;
-  margin: 1em auto;
+  margin: 0.4em auto;
   margin-bottom: 0.3em;
 }
 
@@ -128,6 +168,7 @@ table tr:last-child th {
 ::-webkit-scrollbar-thumb {
   background: #ffffff4f;
   border-radius: 10px;
+  border: 1px solid #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover {

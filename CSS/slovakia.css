@@ -1,17 +1,17 @@
 #slovakia {
     background-color: #222;
 }
-  
+
 .Header {
     display: flex;
     align-items: center;
     padding: 1em;
     margin-top: 0.6em;
 }
-  
+
 #Button {
     padding: 0.2em 0.5em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -23,15 +23,15 @@
     border-radius: 100em;
     transition: 200ms ease;
     user-select: none;
-    margin-left: 0.5%;
+    margin-left: 1%;
     margin-right: 2%;
 }
-  
+
 #Button:hover {
     scale: 1.1;
     background-color: #ffffff8f;
 }
-  
+
 h1 {
     color: #ffffff;
     text-align: center;
@@ -44,12 +44,12 @@ h1 {
     border-radius: 100em;
     margin: 0 auto;
 }
-  
+
 #Container {
     display: flex;
     justify-content: center;
   }
-  
+
 .Emblems {
   display: flex;
   align-items: center;
@@ -61,13 +61,13 @@ h1 {
   margin: 1em auto 1em auto;
   border-radius: 1em;
 }
-  
+
 .Item {
   text-align: center;
   margin-top: 1.7em;
   margin-bottom: 0.5em;
 }
-  
+
 .Object1 {
   margin-left: 0.8em;
   margin-right: 3em;
@@ -79,10 +79,12 @@ h1 {
 
 #Flag {
   width: 70%;
+  user-select: none;
 }
 
 #Coat-of-Arms {
   width: 75%;
+  user-select: none;
 }
 
 .Caption {
@@ -101,29 +103,29 @@ table {
   margin: 0.4em auto;
   margin-bottom: 0.3em;
 }
-  
+
 td {
     color: #ffffff;
     border: 0.5px solid #ffffff;
     text-align: center;
     padding: 0.3em 0.8em;
 }
-  
+
 table td:first-child,
 table th:first-child {
     border-left: none;
 }
-  
+
 table td:last-child,
 table th:last-child {
     border-right: none;
 }
-  
+
 table tr:first-child td,
 table tr:first-child th {
     border-top: none;
 }
-  
+
 table tr:last-child td,
 table tr:last-child th {
     border-bottom: none;
@@ -136,7 +138,7 @@ table tr:last-child th {
 
 #Sources {
     padding: 0.2em 0.5em;
-    font-size: 1em;
+    font-size: 0.9em;
     border: 1px solid #ffffff;
     color:#ffffff;
     background-color: #ffffff4f;
@@ -161,68 +163,80 @@ table tr:last-child th {
     background: #aaa;
     color: rgb(0, 0, 0);
 }
-  
+
 ::-webkit-scrollbar {
     width: 15px;
 }
-  
+
 ::-webkit-scrollbar-track {
     background: #222;
     border-radius: 10px;
     /* border: 1px solid #ffffff; */
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background: #ffffff4f;
     border-radius: 10px;
     border: 1px solid #ffffff;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff8f;
 }
-  
+
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.6em;
-    }
-  
-    #Button {
-      display: none;
-    }
-  
-    table {
-      font-size: 1.2em;
-      margin: 0.5em auto;
-    } 
-  
-    td {
-      padding: 0.3em 0.5em;
-    }
-  
-    ::-webkit-scrollbar {
-      display: none;
-    }
+  h1 {
+      font-size: 1.6em;
+  }
+
+  #Button {
+    display: none;
+  }
+
+  table {
+    font-size: 1.2em;
+    margin: 0.5em auto;
+  }
+
+  td {
+    padding: 0.3em 0.5em;
+  }
+
+  #Sources {
+    font-size: 0.7em;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
-  
+
 @media (max-width: 340px) {
-    h1 {
-        font-size: 1.4em;
-    }
-  
-    table {
-      font-size: 1em;
-      margin: 0.2em auto;
-    } 
+  h1 {
+      font-size: 1.4em;
+  }
+
+  table {
+    font-size: 1em;
+    margin: 0.2em auto;
+  }
+
+  #Sources {
+    font-size: 0.5em;
+  }
 }
 
 @media (max-width: 240px) {
-    h1 {
-      font-size: 1.2em;
-    }
-  
-    table {
-      font-size: 0.8em;
-      margin: 0 auto;
-    } 
+  h1 {
+    font-size: 1.2em;
+  }
+
+  table {
+    font-size: 0.8em;
+    margin: 0 auto;
+  }
+
+  #Sources {
+    font-size: 0.4em;
+  }
 }

@@ -120,28 +120,28 @@
 ::-webkit-scrollbar {
     width: 15px;
 }
-  
+
 ::-webkit-scrollbar-track {
     background: #222;
     border-radius: 10px;
     /* border: 1px solid #ffffff; */
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background: #ffffff4f;
     border-radius: 10px;
     border: 1px solid #ffffff;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff8f;
 }
-  
+
 @media (max-width: 480px) {
     #Slovakia {
         font-size: 1.6em;
     }
-  
+
     ::-webkit-scrollbar {
       display: none;
     }

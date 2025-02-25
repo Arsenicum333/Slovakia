@@ -10,7 +10,7 @@
 
 #Button {
   padding: 0.2em 0.5em;
-  font-size: 1.8em;
+  font-size: 1.5em;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
   border-radius: 100em;
   transition: 200ms ease;
   user-select: none;
-  margin-left: 0.5%;
+  margin-left: 1%;
   margin-right: 2%;
 }
 
@@ -75,8 +75,13 @@ h1 {
   margin-right: 0.1em;
 }
 
+#Flag {
+  user-select: none;
+}
+
 #Coat-of-Arms {
   width: 67%;
+  user-select: none;
 }
 
 .Caption {
@@ -129,7 +134,7 @@ table tr:last-child th {
 
 #Sources {
   padding: 0.2em 0.5em;
-  font-size: 1em;
+  font-size: 0.9em;
   border: 1px solid #000000;
   color:#000000;
   background-color: #ffffff4f;
@@ -182,15 +187,19 @@ table tr:last-child th {
 
   #Button {
     display: none;
-  }
+}
 
   table {
     font-size: 1.2em;
     margin: 0.5em auto;
-  } 
+  }
 
   td {
     padding: 0.3em 0.5em;
+  }
+
+  #Sources {
+    font-size: 0.7em;
   }
 
   ::-webkit-scrollbar {
@@ -206,7 +215,11 @@ table tr:last-child th {
   table {
     font-size: 1em;
     margin: 0.2em auto;
-  } 
+  }
+
+  #Sources {
+    font-size: 0.5em;
+  }
 }
 
 @media (max-width: 270px) {
@@ -217,5 +230,9 @@ table tr:last-child th {
   table {
     font-size: 0.8em;
     margin: 0 auto;
-  } 
+  }
+
+  #Sources {
+    font-size: 0.4em;
+  }
 }

@@ -50,9 +50,9 @@ h1 {
 }
 
 .Emblems {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
-  justify-content: center;
   border: 1px solid #000000;
   background-color: #ffffff4f;
   object-fit: cover;
@@ -62,31 +62,35 @@ h1 {
 
 .Item {
   text-align: center;
-  margin-top: 1.7em;
-  margin-bottom: 0.5em;
-}
-
-.Object1 {
-  margin-left: 1.8em;
-  margin-right: 3em;
-}
-
-.Object2 {
-  margin-right: 0.1em;
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  align-items: center;
 }
 
 #Flag {
+  width: 13em;
   user-select: none;
+  margin-left: 1em;
+  margin-top: 0.9em;
+  margin-right: 1em
 }
 
 #Coat-of-Arms {
-  width: 67%;
+  width: 7.5em;
   user-select: none;
+  margin-right: 0.5em;
+  margin-top: 0.9em;
 }
 
 .Caption {
   font-size: 1.5em;
+  margin-bottom: 0.2em;
   /* border: 1px solid #000000; */
+}
+
+#Caption2 {
+  margin-right: 0.5em;
 }
 
 table {
@@ -187,7 +191,32 @@ table tr:last-child th {
 
   #Button {
     display: none;
-}
+  }
+
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 10em;
+    margin-left: 0.95em;
+    margin-right: 1em;
+    margin-top: 0.85em;
+  }
+
+  #Coat-of-Arms {
+    width: 5.8em;
+    margin-right: 0.5em;
+    margin-top: 0.85em;
+  }
+
+  .Caption {
+    font-size: 1.2em;
+  }
+
+  #Caption2 {
+    margin-right: 0.5em;
+  }
 
   table {
     font-size: 1.2em;
@@ -212,6 +241,31 @@ table tr:last-child th {
     font-size: 1.4em;
   }
 
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 8em;
+    margin-left: 0.85em;
+    margin-right: 1em;
+    margin-top: 0.75em;
+  }
+
+  #Coat-of-Arms {
+    width: 4.6em;
+    margin-right: 0.4em;
+    margin-top: 0.75em;
+  }
+
+  .Caption {
+    font-size: 1em;
+  }
+
+  #Caption2 {
+    margin-right: 0.4em;
+  }
+
   table {
     font-size: 1em;
     margin: 0.2em auto;
@@ -225,6 +279,31 @@ table tr:last-child th {
 @media (max-width: 270px) {
   h1 {
     font-size: 1em;
+  }
+
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 5.63em;
+    margin-left: 0.85em;
+    margin-right: 0.2em;
+    margin-top: 0.75em;
+  }
+
+  #Coat-of-Arms {
+    width: 3.26em;
+    margin-right: 0.4em;
+    margin-top: 0.75em;
+  }
+
+  .Caption {
+    font-size: 0.8em;
+  }
+
+  #Caption2 {
+    margin-right: 0.4em;
   }
 
   table {

@@ -1,61 +1,61 @@
 #slovakia {
-    background-color: #222;
+  background-color: #222;
 }
 
 .Header {
-    display: flex;
-    align-items: center;
-    padding: 1em;
-    margin-top: 0.6em;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin-top: 0.6em;
 }
 
 #Button {
-    padding: 0.2em 0.5em;
-    font-size: 1.5em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    color: #ffffff;
-    background-color: #ffffff4f;
-    border: 1px solid #ffffff;
-    text-decoration: none;
-    border-radius: 100em;
-    transition: 200ms ease;
-    user-select: none;
-    margin-left: 1%;
-    margin-right: 2%;
+  padding: 0.2em 0.5em;
+  font-size: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #ffffff4f;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  border-radius: 100em;
+  transition: 200ms ease;
+  user-select: none;
+  margin-left: 1%;
+  margin-right: 2%;
 }
 
 #Button:hover {
-    scale: 1.1;
-    background-color: #ffffff8f;
+  scale: 1.1;
+  background-color: #ffffff8f;
 }
 
 h1 {
-    color: #ffffff;
-    text-align: center;
-    padding: 0.2em 0.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #ffffff4f;
-    border: 1px solid #ffffff;
-    border-radius: 100em;
-    margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.2em 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #ffffff4f;
+  border: 1px solid #ffffff;
+  border-radius: 100em;
+  margin: 0 auto;
 }
 
 #Container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   }
 
 .Emblems {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   align-items: center;
-  justify-content: center;
-  color: #ffffff;
   border: 1px solid #ffffff;
+  color: #fff;
   background-color: #ffffff4f;
   object-fit: cover;
   margin: 1em auto 1em auto;
@@ -64,32 +64,36 @@ h1 {
 
 .Item {
   text-align: center;
-  margin-top: 1.7em;
-  margin-bottom: 0.5em;
-}
-
-.Object1 {
-  margin-left: 0.8em;
-  margin-right: 3em;
-}
-
-.Object2 {
-  margin-right: 1em;
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  align-items: center;
 }
 
 #Flag {
-  width: 70%;
+  width: 13em;
   user-select: none;
+  margin-left: 1.1em;
+  margin-top: 1em;
+  margin-right: 1em
 }
 
 #Coat-of-Arms {
-  width: 75%;
+  width: 7em;
   user-select: none;
+  margin-right: 0.5em;
+  margin-top: 1em;
 }
 
 .Caption {
   font-size: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.1em;
   /* border: 1px solid #000000; */
+}
+
+#Caption2 {
+  margin-right: 0.5em;
 }
 
 table {
@@ -105,83 +109,84 @@ table {
 }
 
 td {
-    color: #ffffff;
-    border: 0.5px solid #ffffff;
-    text-align: center;
-    padding: 0.3em 0.8em;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  text-align: center;
+  padding: 0.3em 0.8em;
 }
 
 table td:first-child,
 table th:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 table td:last-child,
 table th:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 table tr:first-child td,
 table tr:first-child th {
-    border-top: none;
+  border-top: none;
 }
 
 table tr:last-child td,
 table tr:last-child th {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .Footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #Sources {
-    padding: 0.2em 0.5em;
-    font-size: 0.9em;
-    border: 1px solid #ffffff;
-    color:#ffffff;
-    background-color: #ffffff4f;
-    border-radius: 100em;
-    text-align: center;
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+  border: 1px solid #ffffff;
+  color:#ffffff;
+  background-color: #ffffff4f;
+  border-radius: 100em;
+  text-align: center;
 }
 
 .Source {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .Source:hover {
-    color: #444;
+  color: #444;
 }
 
 ::selection {
-    background: #aaa;
-    color: rgb(0, 0, 0);
+  background: #aaa;
+  color: rgb(0, 0, 0);
 }
-  ::-moz-selection {
-    background: #aaa;
-    color: rgb(0, 0, 0);
+
+::-moz-selection {
+  background: #aaa;
+  color: rgb(0, 0, 0);
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #222;
-    border-radius: 10px;
-    /* border: 1px solid #ffffff; */
+  background: #222;
+  border-radius: 10px;
+  /* border: 1px solid #ffffff; */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff4f;
-    border-radius: 10px;
-    border: 1px solid #ffffff;
+  background: #ffffff4f;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ffffff8f;
+  background: #ffffff8f;
 }
 
 @media (max-width: 480px) {
@@ -191,6 +196,31 @@ table tr:last-child th {
 
   #Button {
     display: none;
+  }
+
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 10.7em;
+    margin-left: 0.9em;
+    margin-right: 1em;
+    margin-top: 0.85em;
+  }
+
+  #Coat-of-Arms {
+    width: 5.8em;
+    margin-right: 0.5em;
+    margin-top: 0.85em;
+  }
+
+  .Caption {
+    font-size: 1.2em;
+  }
+
+  #Caption2 {
+    margin-right: 0.5em;
   }
 
   table {
@@ -213,7 +243,32 @@ table tr:last-child th {
 
 @media (max-width: 340px) {
   h1 {
-      font-size: 1.4em;
+    font-size: 1.4em;
+  }
+
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 8.2em;
+    margin-left: 0.85em;
+    margin-right: 1em;
+    margin-top: 0.8em;
+  }
+
+  #Coat-of-Arms {
+    width: 4.4em;
+    margin-right: 0.4em;
+    margin-top: 0.8em;
+  }
+
+  .Caption {
+    font-size: 1em;
+  }
+
+  #Caption2 {
+    margin-right: 0.4em;
   }
 
   table {
@@ -226,9 +281,34 @@ table tr:last-child th {
   }
 }
 
-@media (max-width: 240px) {
+@media (max-width: 270px) {
   h1 {
     font-size: 1.2em;
+  }
+
+  .Emblems {
+    margin: 0 auto 0.5em auto;
+  }
+
+  #Flag {
+    width: 5.63em;
+    margin-left: 0.85em;
+    margin-right: 0.2em;
+    margin-top: 0.85em;
+  }
+
+  #Coat-of-Arms {
+    width: 3.04em;
+    margin-right: 0.4em;
+    margin-top: 0.85em;
+  }
+
+  .Caption {
+    font-size: 0.8em;
+  }
+
+  #Caption2 {
+    margin-right: 0.4em;
   }
 
   table {

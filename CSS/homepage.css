@@ -111,11 +111,12 @@
 ::selection {
     background: #222;
     color: white;
-  }
-  ::-moz-selection {
+}
+
+:-moz-selection {
     background: #222;
     color: white;
-  }
+}
 
 ::-webkit-scrollbar {
     width: 15px;

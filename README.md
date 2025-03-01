@@ -8,35 +8,33 @@ This project offers a simple and clean website that showcases the various region
 
 ## ✨ Features
 
-- 🎨 **Responsive Design** - Ensures compatibility across various devices and screen sizes.
-- 🏞️ **Regional Information** - Provides details about all Slovakia's regions.
-- 🏗️ **Minimalist Aesthetics** - Focuses on content without unnecessary embellishments.
+- 🎨 **Responsive Design** – Ensures compatibility across various devices and screen sizes.  
+- 🏞️ **Regional Information** – Provides details about all Slovakia's regions.  
+- 🏗️ **Minimalist Aesthetics** – Focuses on content without unnecessary embellishments.  
 
-## ⚙️ Installation
+## 🚀 Website
 
-To run this project locally, follow these steps:
+You can explore the website here: [Slovakia Website](https://arsenicum333.github.io/Slovakia/)
+
+## 🔎 Usage
+
+Upon opening the website, you’ll be presented with a homepage featuring links to different regions of Slovakia. Click on any region to view more information about it. You can also access general information about Slovakia by clicking the **Slovakia** button.
+
+## ⚙️ Running Locally
+
+To open the project on your local machine, follow these steps:
 
 1. **Clone the repository**:
-
    ```bash
    git clone https://github.com/Arsenicum333/Slovakia.git
    ```
-
 2. **Navigate to the project directory**:
-
    ```bash
    cd Slovakia
    ```
-
 3. **Open `index.html` in your preferred web browser**.
 
 No additional dependencies or installations are required since the project is built with pure HTML and CSS.
-
-## 🚀 Usage
-
-Upon opening the `index.html` file, you'll be presented with a homepage featuring links to different regions of Slovakia. Click on any region to view more information about it. You can also view general information about Slovakia by clicking the **Slovakia** button.
-
-🌍 **Live Demo**: [Slovakia Website](https://arsenicum333.github.io/Slovakia/)
 
 ## 🤝 Contributing
 

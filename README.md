@@ -6,6 +6,11 @@ A minimalist website providing information about Slovakia and its regions, creat
 
 ![Homepage Preview](./img/Preview_Homepage.png)
 
+<div align="center">
+  <img src="./img/Preview_Slovakia.png" width="47%" style="margin-right: 1.5rem;">
+  <img src="./img/Preview_Trnava.png" width="47%">
+</div>
+
 ## 📖 About the Project
 
 This project was created to practice HTML and CSS while gathering key statistical data about Slovakia and its regions. The website is fully responsive and looks great on all screens, from smartphones to desktop monitors.

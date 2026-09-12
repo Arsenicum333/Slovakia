@@ -9,11 +9,12 @@ header {
     padding: 1rem 2% 0.5rem;
 }
 
-.icon-btn {
+.icon-btn svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(2rem, 5vw, 3rem);
+    width: clamp(2.5rem, 5vw, 3rem);
+    height: clamp(2.5rem, 5vw, 3rem);
     flex-shrink: 0;
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
@@ -30,11 +31,6 @@ header {
 .icon-btn:hover {
     scale: 1.1;
     background-color: #ffffff8f;
-}
-
-.icon-btn svg {
-    width: 100%;
-    height: 100%;
 }
 
 h1 {

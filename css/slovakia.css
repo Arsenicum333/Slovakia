@@ -14,6 +14,7 @@ header {
   align-items: center;
   justify-content: center;
   width: clamp(2rem, 5vw, 3rem);
+  flex-shrink: 0;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
   padding: clamp(0.4rem, 1vw, 0.6rem);

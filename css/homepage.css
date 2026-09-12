@@ -32,7 +32,7 @@ header {
 }
 
 main {
-    width: min(80vw, 1200px);
+    width: min(100%, 70vw + 90px, 1200px);
     position: relative;
     margin: 0 auto;
     container-type: inline-size;

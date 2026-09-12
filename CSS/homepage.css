@@ -1,109 +1,98 @@
-#homepage {
+body {
     background-color: #222;
 }
 
-.Header {
+header {
     display: flex;
-    align-items: center;
 }
 
-#Slovakia {
+#slovakia-btn {
     color: #fff;
     text-align: center;
-    padding: 0.2em 0.5em;
-    font-size: 2em;
+    padding: 0.2rem 1rem;
+    font-weight: bold;
+    font-size: clamp(1.2rem, 4vw, 2rem);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     user-select: none;
     display: inline-block;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
     background-color: #ffffff4f;
     border: 1px solid #ffffff;
-    border-radius: 100em;
+    border-radius: 100rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
-    margin-top: 0.7em;
+    margin-bottom: clamp(1rem, 3vw, 2rem);
+    margin-top: clamp(0.7rem, 3vw, 1.7rem);
     transition: 200ms ease;
 }
 
-#Slovakia:hover {
+#slovakia-btn:hover {
     scale: 1.1;
     background-color: #ffffff8f;
 }
 
-.Slovak-Regions {
-    width: 80vw;
+main {
+    width: min(80vw, 1200px);
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    container-type: inline-size;
 }
 
-#Slovak-Map {
-    width: 80vw;
+#map {
+    width: 100%;
     display: block;
     user-select: none;
 }
 
-.Regions {
+.region-link {
     position: absolute;
     text-align: center;
     text-decoration: none;
     color:#000000;
-    float: left;
     user-select: none;
+    font-size: 2cqw;
 }
 
-.Regions:hover {
+.region-link:hover {
     color: gray;
 }
 
-#Bratislava {
-    font-size: calc(0.02 * 80vw);
+#bratislava {
     top: 64%;
     left: 1.9%;
 }
 
-#Trnava {
-    font-size: calc(0.02 * 80vw);
+#trnava {
     bottom: 16%;
     left: 9.7%;
 }
 
-#Nitra {
-    font-size: calc(0.02 * 80vw);
+#nitra {
     bottom: 22%;
     left: 23.4%;
 }
 
-#Trencin {
-    font-size: calc(0.02 * 80vw);
+#trencin {
     top: 38%;
     left: 20%;
 }
 
-#Banska-Bystrica {
-    font-size: calc(0.02 * 80vw);
+#banska-bystrica {
     bottom: 40%;
     left: 39.6%;
 }
 
-#Zilina {
-    font-size: calc(0.02 * 80vw);
+#zilina {
     top: 22%;
     left: 39.2%;
 }
 
-#Presov {
-    font-size: calc(0.02 * 80vw);
+#presov {
     top: 24%;
     right: 20%;
 }
 
-#Kosice {
-    font-size: calc(0.02 * 80vw);
+#kosice {
     top: 47%;
     right: 19%;
 }
@@ -137,25 +126,3 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff8f;
 }
-
-@media (max-width: 480px) {
-    #Slovakia {
-        font-size: 1.6em;
-    }
-
-    ::-webkit-scrollbar {
-      display: none;
-    }
-}
-
-@media (max-width: 340px) {
-    #Slovakia {
-        font-size: 1.4em;
-    }
-}
-
-@media (max-width: 240px) {
-    h1 {
-      font-size: 1.2em;
-    }
-  }

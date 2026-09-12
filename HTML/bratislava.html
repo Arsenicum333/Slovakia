@@ -4,116 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bratislava</title>
-    <link rel="stylesheet" href="../CSS/bratislava.css">
-    <link rel="icon" type="image/png" href="../Images/Coat_of_Arms_of_Bratislava_Region.png">
+    <link rel="stylesheet" href="../css/bratislava.css">
+    <link rel="icon" type="image/png" href="../img/Coat_of_Arms_of_Bratislava_Region.png">
 </head>
-<body id="bratislava">
-    <div class="Header">
-        <a id="Button" href="../index.html">Home</a>
+<body>
+    <header>
+        <a class="icon-btn" href="../index.html" aria-label="Home">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/>
+                <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            </svg>
+        </a>
+
         <h1>Bratislava Region</h1>
-    </div>
 
-    <div id="Container">
-        <div class="Emblems">
-            <div class="Item">
-                <img id="Flag" src="../Images/Bratislavsky_vlajka.png">
-                <div class="Caption" id="Caption1">Flag</div>
-            </div>
-            <div class="Item">
-                <img id="Coat-of-Arms" src="../Images/Coat_of_Arms_of_Bratislava_Region.png">
-                <div class="Caption" id="Caption2">Coat of Arms</div>
-            </div>
+        <a class="icon-btn"
+           href="https://github.com/Arsenicum333/Slovakia"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M9 22V18C8.93 17.38 8.98 16.75 9.15 16.15C9.32 15.55 9.61 14.99 10 14.5C7 14.5 4 12.5 4 9C3.91847 7.75279 4.27187 6.51588 5 5.5C4.7 4.35 4.7 3.15 5 2C5 2 6 2 8 3.5C10.64 3 13.36 3 16 3.5C18 2 19 2 19 2C19.28 3.15 19.28 4.35 19 5.5C19.73 6.52 20.08 7.75 20 9C20 12.5 17 14.5 14 14.5C14.7799 15.4901 15.1391 16.7473 15 18V22M9 18C4.49 20 4 16 2 16"/>
+            </svg>
+        </a>
+    </header>
+
+    <main>
+        <div class="emblem">
+            <figure>
+                <img id="flag"
+                     src="../img/Bratislavsky_vlajka.png"
+                     alt="Flag of Bratislava Region">
+                <figcaption>Flag</figcaption>
+            </figure>
+
+            <figure>
+                <img id="coat-of-arms"
+                     src="../img/Coat_of_Arms_of_Bratislava_Region.png"
+                     alt="Coat of Arms of Bratislava Region">
+                <figcaption>Coat of Arms</figcaption>
+            </figure>
         </div>
-    </div>
 
-    <table>
-        <tr>
-            <td>Population</td>
-            <td>719 537</td>
-        </tr>
-        <tr>
-            <td>Males</td>
-            <td>346 304 (48.13%)</td>
-        </tr>
-        <tr>
-            <td>Females</td>
-            <td>373 233 (51.87%)</td>
-        </tr>
-        <tr>
-            <td>0-14 years</td>
-            <td>120 991 (16.82%)</td>
-        </tr>
-        <tr>
-            <td>15-64 years</td>
-            <td>472 770 (65.70%)</td>
-        </tr>
-        <tr>
-            <td>65+ years</td>
-            <td>125 776 (17.48%)</td>
-        </tr>
-        <tr>
-            <td>Major Nationalities</td>
-            <td>Slovak (86.19%), Hungarian (2.87%)</td>
-        </tr>
-        <tr>
-            <td>Major Mother Tongues</td>
-            <td>Slovak (85.91%), Hungarian (2.96%)</td>
-        </tr>
-        <tr>
-            <td>Major Religions</td>
-            <td>Roman Catholicism (42.63%), Atheism (39.85%)</td>
-        </tr>
-        <tr>
-            <td>Area</td>
-            <td>2 052.6 km<sup>2</sup></td>
-        </tr>
-        <tr>
-            <td>Density</td>
-            <td>350.55/km<sup>2</sup></td>
-        </tr>
-        <tr>
-            <td>Urbanisation</td>
-            <td>78.85%</td>
-        </tr>
-        <tr>
-            <td>Largest Cities</td>
-            <td>Bratislava (478 040), Pezinok (24 506)</td>
-        </tr>
-        <tr>
-            <td>Highest Elevation</td>
-            <td>759.1 m</td>
-        </tr>
-        <tr>
-            <td>Lowest Elevation</td>
-            <td>113.9 m</td>
-        </tr>
-        <tr>
-            <td>Major Universities</td>
-            <td>Comenius University in Bratislava, Slovak University of Technology in Bratislava</td>
-        </tr>
-        <tr>
-            <td>Unemployment Rate</td>
-            <td>2.3%</td>
-        </tr>
-        <tr>
-            <td>Average Monthly Earnings</td>
-            <td>EUR 2 066</td>
-        </tr>
-        <tr>
-            <td>GDP Total</td>
-            <td>EUR 33.492 billion</td>
-        </tr>
-        <tr>
-            <td>GDP Per Capita</td>
-            <td>EUR 45 187</td>
-        </tr>
-    </table>
+        <table>
+            <tr>
+                <th scope="row">Population</th>
+                <td>719 537</td>
+            </tr>
+            <tr>
+                <th scope="row">Males</th>
+                <td>346 304 (48.13%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Females</th>
+                <td>373 233 (51.87%)</td>
+            </tr>
+            <tr>
+                <th scope="row">0-14 years</th>
+                <td>120 991 (16.82%)</td>
+            </tr>
+            <tr>
+                <th scope="row">15-64 years</th>
+                <td>472 770 (65.70%)</td>
+            </tr>
+            <tr>
+                <th scope="row">65+ years</th>
+                <td>125 776 (17.48%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Major Nationalities</th>
+                <td>Slovak (86.19%), Hungarian (2.87%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Major Mother Tongues</th>
+                <td>Slovak (85.91%), Hungarian (2.96%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Major Religions</th>
+                <td>Roman Catholicism (42.63%), Atheism (39.85%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Area</th>
+                <td>2 052.6 km<sup>2</sup></td>
+            </tr>
+            <tr>
+                <th scope="row">Density</th>
+                <td>350.55/km<sup>2</sup></td>
+            </tr>
+            <tr>
+                <th scope="row">Urbanisation</th>
+                <td>78.85%</td>
+            </tr>
+            <tr>
+                <th scope="row">Largest Cities</th>
+                <td>Bratislava (478 040), Pezinok (24 506)</td>
+            </tr>
+            <tr>
+                <th scope="row">Highest Elevation</th>
+                <td>759.1 m</td>
+            </tr>
+            <tr>
+                <th scope="row">Lowest Elevation</th>
+                <td>113.9 m</td>
+            </tr>
+            <tr>
+                <th scope="row">Major Universities</th>
+                <td>Comenius University in Bratislava, Slovak University of Technology in Bratislava</td>
+            </tr>
+            <tr>
+                <th scope="row">Unemployment Rate</th>
+                <td>2.3%</td>
+            </tr>
+            <tr>
+                <th scope="row">Average Monthly Earnings</th>
+                <td>EUR 2 066</td>
+            </tr>
+            <tr>
+                <th scope="row">GDP Total</th>
+                <td>EUR 33.492 billion</td>
+            </tr>
+            <tr>
+                <th scope="row">GDP Per Capita</th>
+                <td>EUR 45 187</td>
+            </tr>
+        </table>
+    </main>
 
-    <div class="Footer">
-        <p id="Sources">
-            Data has been sourced from <a class="Source" href="https://www.scitanie.sk/" target="_blank" rel="noopener noreferrer"><i><b>Scitanie</b></i></a>, <a class="Source" href="https://slovak.statistics.sk/" target="_blank" rel="noopener noreferrer"><i><b>Slovak Statistics</b></i></a>, <a class="Source" href="https://www.4icu.org/" target="_blank" rel="noopener noreferrer"><i><b>UniRank</b></i></a> and <a class="Source" href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer"><i><b>Wikipedia</b></i></a>
+    <footer>
+        <p id="source">
+            Data has been sourced from
+            <a class="source" href="https://www.scitanie.sk/" target="_blank" rel="noopener noreferrer">Scitanie</a>,
+            <a class="source" href="https://slovak.statistics.sk/" target="_blank" rel="noopener noreferrer">Slovak Statistics</a>,
+            <a class="source" href="https://www.4icu.org/" target="_blank" rel="noopener noreferrer">UniRank</a>
+            and
+            <a class="source" href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a>
         </p>
-    </div>
-
+    </footer>
 </body>
 </html>

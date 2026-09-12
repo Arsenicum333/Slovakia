@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2%;
+  padding: 1rem 2% 0.5rem;
 }
 
 .icon-btn {
@@ -36,7 +36,7 @@ h1 {
   text-align: center;
   padding: 0.2rem 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-size: clamp(1.2rem, 5vw, 2rem);
   display: inline-block;
   box-sizing: border-box;
   background-color: #ffffff4f;

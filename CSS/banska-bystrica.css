@@ -6,7 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2%;
+    padding: 1rem 2% 0.5rem;
 }
 
 .icon-btn {
@@ -41,7 +41,7 @@ h1 {
     text-align: center;
     padding: 0.2rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(0.8rem, 4vw, 2rem);
+    font-size: clamp(0.8rem, 5vw, 2rem);
     display: inline-block;
     box-sizing: border-box;
     background-color: #ffffff4f;
@@ -68,8 +68,7 @@ figure {
     text-align: center;
 }
 
-#flag,
-#coat-of-arms {
+#flag, #coat-of-arms {
     height: clamp(5rem, 18vw, 9rem);
     width: auto;
     user-select: none;
@@ -97,8 +96,7 @@ th {
     font-weight: normal;
 }
 
-th,
-td {
+th, td {
     color: #000000;
     border: 0.5px solid #000000;
     text-align: center;

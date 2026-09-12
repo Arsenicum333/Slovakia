@@ -1,318 +1,180 @@
-#trnava {
-  background-color: #ffb480;
+body {
+    background-color: #ffb480;
 }
 
-.Header {
-  display: flex;
-  align-items: center;
-  padding: 1em;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2% 0.5rem;
 }
 
-#Button {
-  padding: 0.2em 0.5em;
-  font-size: 1.5em;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  color: #000000;
-  background-color: #ffffff4f;
-  border: 1px solid #000000;
-  text-decoration: none;
-  border-radius: 100em;
-  transition: 200ms ease;
-  user-select: none;
-  margin-left: 1%;
-  margin-right: 2%;
+.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(2rem, 5vw, 3rem);
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    padding: clamp(0.4rem, 1vw, 0.6rem);
+    color: #000000;
+    background-color: #ffffff4f;
+    border: 1px solid #000000;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 200ms ease;
+    user-select: none;
 }
 
-#Button:hover {
-  scale: 1.1;
-  background-color: #ffffff8f;
+.icon-btn:hover {
+    scale: 1.1;
+    background-color: #ffffff8f;
+}
+
+.icon-btn svg {
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
-  color: #000000;
-  text-align: center;
-  padding: 0.2em 0.5em;
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  box-sizing: border-box;
-  background-color: #ffffff4f;
-  border: 1px solid #000000;
-  border-radius: 100em;
-  margin: 0 auto;
+    color: #000000;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(0.8rem, 5vw, 2rem);
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ffffff4f;
+    border: 1px solid #000000;
+    border-radius: 100rem;
+    margin: 0 0.5rem;
 }
 
-#Container {
-  display: flex;
-  justify-content: center;
+.emblem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1.5rem, 5vw, 3rem);
+    width: max-content;
+    margin: 1rem auto;
+    padding: clamp(0.8rem, 3vw, 1rem);
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    background-color: #ffffff4f;
 }
 
-.Emblems {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  border: 1px solid #000000;
-  background-color: #ffffff4f;
-  object-fit: cover;
-  margin: 1em auto 1em auto;
-  border-radius: 1em;
+figure {
+    margin: 0;
+    text-align: center;
 }
 
-.Item {
-  text-align: center;
-  display: grid;
-  grid-template-rows: auto auto;
-  justify-items: center;
-  align-items: center;
+#flag, #coat-of-arms {
+    height: clamp(5rem, 18vw, 9rem);
+    width: auto;
+    user-select: none;
 }
 
-#Flag {
-  width: 13em;
-  user-select: none;
-  margin-left: 1em;
-  margin-top: 0.9em;
-  margin-right: 1em
-}
-
-#Coat-of-Arms {
-  width: 7.5em;
-  user-select: none;
-  margin-right: 0.5em;
-  margin-top: 0.9em;
-}
-
-.Caption {
-  font-size: 1.5em;
-  margin-bottom: 0.2em;
-  margin-top: 0.1em;
-  /* border: 1px solid #000000; */
-}
-
-#Caption2 {
-  margin-right: 0.5em;
+figcaption {
+    color: #000000;
+    font-size: clamp(0.8rem, 3vw, 1.25rem);
+    margin-top: 0.1rem;
+    /* border: 1px solid #000000; */
 }
 
 table {
-  font-size: 1.5em;
-  border-collapse: separate;
-  border-spacing: 0;
-  background-color: #ffffff4f;
-  overflow: hidden;
-  border-radius: 15px;
-  border: 1px solid #000000;
-  margin: 0.4em auto;
-  margin-bottom: 0.3em;
+    font-size: clamp(0.8rem, 3vw, 1.25rem);
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff4f;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    margin: 0.4rem auto 0.3rem;
 }
 
-td {
-  border: 0.5px solid #000000;
-  text-align: center;
-  padding: 0.3em 0.8em;
+th {
+    font-weight: normal;
+}
+
+th, td {
+    color: #000000;
+    border: 0.5px solid #000000;
+    text-align: center;
+    padding: clamp(0.2rem, 2vw, 0.6rem);
 }
 
 table td:first-child,
 table th:first-child {
-  border-left: none;
+    border-left: none;
 }
 
 table td:last-child,
 table th:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 table tr:first-child td,
 table tr:first-child th {
-  border-top: none;
+    border-top: none;
 }
 
 table tr:last-child td,
 table tr:last-child th {
-  border-bottom: none;
+    border-bottom: none;
 }
 
-.Footer {
-  display: flex;
-  justify-content: center;
+footer {
+    display: flex;
+    justify-content: center;
 }
 
-#Sources {
-  padding: 0.2em 0.5em;
-  font-size: 0.9em;
-  border: 1px solid #000000;
-  color:#000000;
-  background-color: #ffffff4f;
-  border-radius: 100em;
-  text-align: center;
+#source {
+    padding: 0.2rem 0.5rem;
+    font-size: clamp(0.4rem, 2.5vw, 0.8rem);
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffffff4f;
+    border-radius: 100rem;
+    text-align: center;
 }
 
-.Source {
-  text-decoration: none;
-  color: #000000;
+.source {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
 }
 
-.Source:hover {
-  color: grey;
+.source:hover {
+    color: #444;
 }
 
 ::selection {
-  background: #e67e22;
-  color: white;
+    background: #e67e22;
+    color: #ffffff;
 }
+
 ::-moz-selection {
-  background: #e67e22;
-  color: white;
+    background: #e67e22;
+    color: #ffffff;
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffb480;
-  border-radius: 10px;
-  /* border: 1px solid #000000; */
+    background: #ffb480;
+    border-radius: 10px;
+    /* border: 1px solid #000000; */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffffff4f;
-  border-radius: 10px;
-  border: 1px solid #000000;
+    background: #ffffff4f;
+    border-radius: 10px;
+    border: 1px solid #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff8f;
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.6em;
-  }
-
-  #Button {
-    display: none;
-  }
-
-  .Emblems {
-    margin: 0 auto 0.5em auto;
-  }
-
-  #Flag {
-    width: 10em;
-    margin-left: 0.95em;
-    margin-right: 1em;
-    margin-top: 0.85em;
-  }
-
-  #Coat-of-Arms {
-    width: 5.8em;
-    margin-right: 0.5em;
-    margin-top: 0.85em;
-  }
-
-  .Caption {
-    font-size: 1.2em;
-  }
-
-  #Caption2 {
-    margin-right: 0.5em;
-  }
-
-  table {
-    font-size: 1.2em;
-    margin: 0.5em auto;
-  }
-
-  td {
-    padding: 0.3em 0.5em;
-  }
-
-  #Sources {
-    font-size: 0.7em;
-  }
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-@media (max-width: 340px) {
-  h1 {
-    font-size: 1.4em;
-  }
-
-  .Emblems {
-    margin: 0 auto 0.5em auto;
-  }
-
-  #Flag {
-    width: 8em;
-    margin-left: 0.85em;
-    margin-right: 1em;
-    margin-top: 0.75em;
-  }
-
-  #Coat-of-Arms {
-    width: 4.6em;
-    margin-right: 0.4em;
-    margin-top: 0.75em;
-  }
-
-  .Caption {
-    font-size: 1em;
-  }
-
-  #Caption2 {
-    margin-right: 0.4em;
-  }
-
-  table {
-    font-size: 1em;
-    margin: 0.2em auto;
-  }
-
-  #Sources {
-    font-size: 0.5em;
-  }
-}
-
-@media (max-width: 270px) {
-  h1 {
-    font-size: 1em;
-  }
-
-  .Emblems {
-    margin: 0 auto 0.5em auto;
-  }
-
-  #Flag {
-    width: 5.63em;
-    margin-left: 0.85em;
-    margin-right: 0.2em;
-    margin-top: 0.75em;
-  }
-
-  #Coat-of-Arms {
-    width: 3.26em;
-    margin-right: 0.4em;
-    margin-top: 0.75em;
-  }
-
-  .Caption {
-    font-size: 0.8em;
-  }
-
-  #Caption2 {
-    margin-right: 0.4em;
-  }
-
-  table {
-    font-size: 0.8em;
-    margin: 0 auto;
-  }
-
-  #Sources {
-    font-size: 0.4em;
-  }
+    background: #ffffff8f;
 }

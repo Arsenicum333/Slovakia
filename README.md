@@ -6,9 +6,9 @@ A minimalist website providing information about Slovakia and its regions, creat
 
 ![Homepage Preview](./img/Preview_Homepage.png)
 
-<div align="center">
-  <img src="./img/Preview_Slovakia.png" width="47%" style="margin-right: 1.5rem;">
-  <img src="./img/Preview_Trnava.png" width="47%">
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <img src="./img/Preview_Slovakia.png" width="48%">
+  <img src="./img/Preview_Trnava.png" width="48%">
 </div>
 
 ## 📖 About the Project

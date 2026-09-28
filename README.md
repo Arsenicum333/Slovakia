@@ -1,8 +1,8 @@
 # 🗺️ Slovakia
 
-A minimalist website providing information about Slovakia and its regions, created using pure HTML and CSS. You can check it out [here](https://arsenicum333.github.io/Slovakia/).
+A minimalist website about Slovakia and its regions, created to practice HTML and CSS. You can check it out [here](https://arsenicum333.github.io/Slovakia/).
 
-## 📸 Preview
+## 📸 Screenshots
 
 ![Homepage Preview](./img/Preview_Homepage.png)
 
@@ -19,16 +19,18 @@ A minimalist website providing information about Slovakia and its regions, creat
 
 ## 📖 About the Project
 
-This project was created to practice HTML and CSS while gathering key statistical data about Slovakia and its regions. The website is fully responsive and looks great on all screens, from smartphones to desktop monitors.
+This project was created as a way to practice HTML and CSS by building an informational website about Slovakia and its regions. Along the way, I also gathered statistical data about the country and its regions to use as the website's content.
 
-## 🔎 Usage
+The website is fully responsive and works across different screen sizes, from smartphones to desktop monitors.
 
-The homepage features links to all regions of Slovakia. Click on any region to view its specific information, or click the **Slovakia** button for general data about the country.
+## 🧭 Navigation
 
-## 💡 What I Learned & Customized
+When you first open the website, the homepage provides links to all regions of Slovakia. Click on any region to view its information, or click the **Slovakia** button for general information about the country.
 
-- **Fluid Responsiveness** - Built scalable layouts using modern CSS functions like `clamp()`, Flexbox, and relative units.
-- **Custom Scrollbars** - Styled scrollbars for both WebKit browsers and Firefox (`scrollbar-color`, `::-webkit-scrollbar`).
+## 💡 What I Learned
+
+- **Fluid Responsiveness** - Built scalable layouts using modern CSS functions such as `clamp()`, `min()`, and `max()`, along with Flexbox and relative units.
+- **Custom Scrollbars** - Styled scrollbars for both WebKit browsers and Firefox using `scrollbar-color` and `::-webkit-scrollbar`.
 - **Interactive UI Elements** - Styled links, SVG icon buttons with hover transitions, and custom table borders.
-- **Theme Accents** - Customized text selection colors (`::selection`) tailored to each region's individual theme color.
-- **Semantic Structure** - Structured pages using standard HTML5 semantic elements (`<header>`, `<main>`, `<figure>`, `<table>`, `<footer>`, etc.).
+- **Theme Accents** - Customized text selection colors using `::selection`, with each region having its own theme color.
+- **Semantic Structure** - Structured pages using standard HTML5 semantic elements such as `<header>`, `<main>`, `<figure>`, `<table>`, and `<footer>`.
